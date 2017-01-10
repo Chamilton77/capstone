@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+body{
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+ #game {
+    font-family:'Changa One' serif;
+}
+#wheel {
+    width: 500px;
+    border-radius: 250px;
+    float: left;
+}
+#tick {
+    margin-left: 244px;
+    font-family: Arial;
+    font-size: 20pt;
+    color: white;
+}
+#display {
+    background-color: #f47442;
+    padding: 1em 2em;
+    text-align: center;
+    border-radius: 40px;
+    border: 4px double #fff;
+}
+#display div.word {
+    display: inline-block;
+}
+#display div.wordLetter {
+    display: block;
+    width: 50px;
+    height: 65px;
+    margin: 2px;
+    border: 2px solid #f47442;
+    float: left;
+    line-height: 65px;
+    font-size: 40px;
+}
+#display div.wordLetter.letter {
+    border-color: #eee;
+}
+#playArea {
+    clear: both;
+}
+#playArea button {
+    border: 4px double #fff;
+    background-color: #f47442;
+    padding: 6px 14px;
+    color: black;
+    font-family: inherit;
+    font-size: 12pt;
+}
+.clear {
+    clear: both;
+}
+#wheelwrap{
+    margin-left: 400px;
+    align-items: center;
+}
+#moneyArea{
+    float: right; 
+    margin-right: 240px; 
+    margin-top: 50px; 
+    border: 4px solid gold;
+    background-color: silver;
+    width: 300px;
+}
+#hint{
+    width: 500px;
+    height: 125px;
+    background-color: #6ccc51;
+    float: left;
+    margin-left: 125px;
+    margin-top: 125px;
+    text-align: center;
+    border: 5px solid #341360;
+    border-radius: 5px;
+}
+#tickwrap{
+    font-size: 30px;
+}
+#title{
+    color: #ffd621;
+}
+#titlebox{
+    width: 60%;
+    height: 100px;
+    background-color: #341360;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+    border: 15px solid green;
+    animation: mymove 1s infinite;
+}
+/* Standard syntax */
+@keyframes mymove {
+    50% {border-color: red;}
+}
+
+
+
+
